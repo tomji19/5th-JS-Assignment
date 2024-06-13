@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #1e202b !important;
+}
+
+.nav-link:hover {
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.input-group .form-control {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin-bottom: 30px;
+}
+
+.input-group .btn {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.weather-section {
+  position: relative;
+  background: url("../images/banner.png") no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 50px 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(30, 32, 43, 0.7);
+  z-index: 1;
+}
+
+.weather-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.search-bar .form-control {
+  background-color: #1e202b;
+  color: white;
+}
+
+.weather-column {
+  background-color: #1e202b;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+}

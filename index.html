@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header class="bg-dark text-white py-5">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="logo d-flex align-items-center">
+        <i class="fas fa-cloud mr-2 fa-2x mx-2 text-primary"></i>
+        <span class="h4 mb-0">Weather</span>
+      </div>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">News</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Live Cameras</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Photos</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="weather-section">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="search-bar py-4 d-flex flex-column align-items-center">
+        <div class="input-group mb-2" style="width: 90%;">
+          <input type="text" class="form-control" id="cityInput" placeholder="Enter city name"
+            aria-label="Enter city name">
+          <div class="input-group-append" style="width: 20%;">
+            <button class="btn btn-primary w-100" id="searchButton">Search</button>
+          </div>
+        </div>
+      </div>
+      <div id="weatherContainer" class="container">
+        <div class="row weather-forecast text-center d-flex justify-content-center" id="weatherForecast">
+          <!-- Weather columns will be inserted here dynamically -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <div class="col-md-4 weather-column text-white py-3 mx-1">
+    <div class="day-header d-flex justify-content-between">
+      <span>Monday</span>
+      <span>12/06/2024</span>
+    </div>
+    <div class="country my-3">New York</div>
+    <div class="temperature mb-3" style="font-size: 7rem;">25°C</div>
+    <div class="weather-details">
+      <span><i class="fas fa-wind"></i> Wind: 10 km/h</span><br>
+      <span><i class="fas fa-tint"></i> Humidity: 60%</span><br>
+      <span><i class="fas fa-cloud-sun"></i> Cloudy</span>
+    </div>
+  </div>
+  <div class="col-md-4 weather-column text-white py-3 mx-1">
+    <div class="day-header d-flex justify-content-between">
+      <span>Tuesday</span>
+      <span>13/06/2024</span>
+    </div>
+    <div class="country my-3">New York</div>
+    <div class="temperature mb-3" style="font-size: 4rem;">22°C</div>
+    <div class="weather-details">
+      <span><i class="fas fa-wind"></i> Wind: 12 km/h</span><br>
+      <span><i class="fas fa-tint"></i> Humidity: 55%</span><br>
+      <span><i class="fas fa-cloud-showers-heavy"></i> Rain</span>
+    </div>
+  </div>
+  <div class="col-md-3 weather-column text-white py-3 mx-1">
+    <div class="day-header d-flex justify-content-between">
+      <span>Wednesday</span>
+      <span>14/06/2024</span>
+    </div>
+    <div class="country my-3">New York</div>
+    <div class="temperature mb-3" style="font-size: 4rem;">28°C</div>
+    <div class="weather-details">
+      <span><i class="fas fa-wind"></i> Wind: 8 km/h</span><br>
+      <span><i class="fas fa-tint"></i> Humidity: 50%</span><br>
+      <span><i class="fas fa-sun"></i> Sunny</span>
+    </div>
+  </div> -->
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
